@@ -3,7 +3,6 @@ const RivasDB = require("./RivasDB")
 const socket = io("http://localhost:4000")
 const time = 1000
 
-
 async function connect() {
     let response;
     let message;
